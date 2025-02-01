@@ -10,6 +10,8 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class Payment {
-    private String licenseno;
-    private String vehicleno;
+    private String cardholder;
+    private String cardNumber;
+    private String expirydate;
+    private String cvv;
 }
